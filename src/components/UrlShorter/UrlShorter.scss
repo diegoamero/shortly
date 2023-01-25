@@ -1,0 +1,34 @@
+$Cyan: hsl(180, 66%, 49%);
+$Dark-Violet: hsl(257, 27%, 26%);
+$Gray: hsl(0, 0%, 75%);
+
+.url-shorter--form{
+    background-color: $Dark-Violet;
+    background-image: url('../../assets/bg-shorten-mobile.svg');
+    background-position: right;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 1rem;
+    width: 80%;
+    margin: 0 auto;
+    padding: 1.5rem;
+    border-radius: 5px;
+
+    input{
+        border-radius: 5px;
+        padding: 1rem;
+        font-size: 1.2rem;
+    }
+
+    .form--url{
+        color: $Gray;
+    }
+
+    .form--button{
+        background-color: $Cyan;
+        color: #fff;
+    }
+}
